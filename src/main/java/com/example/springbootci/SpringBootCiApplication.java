@@ -14,6 +14,11 @@ public class SpringBootCiApplication {
 		return "ci process fourhqirweovgrpeuigberw";
 	}
 
+	@GetMapping("/hello")
+	public String joke(){
+		return "ci process joker";
+	}
+
     public static void main(String[] args) {
         SpringApplication.run(SpringBootCiApplication.class, args);
     }
