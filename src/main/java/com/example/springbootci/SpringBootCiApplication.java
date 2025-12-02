@@ -11,7 +11,7 @@ public class SpringBootCiApplication {
 
 	@GetMapping("/")
 	public String hello(){
-		return "ci process happening";
+		return "ci process fourhqirweovgrpeuigberw";
 	}
 
     public static void main(String[] args) {
